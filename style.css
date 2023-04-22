@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+body{
+    font-family: "Kumbh Sans" , sans-serif;
+    font-size: 18px;
+    min-width: 100vw; 
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+}
+
+.container{
+    min-width: 450px;
+    margin: 2rem;
+}
+
+.card{
+   background-color: #fff;
+   border-radius: 15px;
+   overflow: hidden;
+}
+
+.back-img{
+    width: 450px;
+}
+
+.hero-img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 7px solid #fff;
+    margin-top: -80px;
+}
+
+span{
+    color: hsl(0, 0%, 59%);
+    margin-left: 15px;
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.hero-info p{
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+    font-size: 25px;
+}
+
+.line{
+    border: 0.2px solid hsl(0, 0%, 59%);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.info-hero{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px;
+}
+
+.info-hero p{
+    color: hsl(0, 0%, 59%);
+}
+
+@media (max-width: 425px) {
+    .container{
+        min-width: 250px;
+    }
+
+    h1{
+        font-size: 25px;
+    }
+
+    span{
+        font-size: 20px;
+    }
+
+    .hero-img{
+        height: 100px;
+        width: 100px;
+        border: 3px solid #fff;
+    }
+
+    .hero-info p{
+        font-size: 20px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    .info-hero p{
+        font-size: 15px;
+    }   
+
+}
