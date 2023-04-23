@@ -12,12 +12,13 @@ body{
     background-color: hsl(185, 75%, 39%);
     background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
     background-repeat: no-repeat, no-repeat;
-    background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+    background-position: right 50vw bottom 45vh, left 48vw top 52vh;
 }
 
 .container{
-    min-width: 450px;
+    min-width: 430px;
     margin: 2rem;
+    overflow: hidden;
 }
 
 .card{
@@ -27,41 +28,49 @@ body{
 }
 
 .back-img{
-    width: 450px;
+    width: 430px;
 }
 
 .hero-img{
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
     border: 7px solid #fff;
-    margin-top: -80px;
+    margin-top: -60px;
+}
+
+h1{
+    font-size: 24px;
+    font-weight: 700;
 }
 
 span{
     color: hsl(0, 0%, 59%);
     margin-left: 15px;
     font-weight: 400;
-    font-size: 28px;
 }
 
 .hero-info p{
     font-weight: 400;
     color: hsl(0, 0%, 59%);
-    font-size: 25px;
+    font-size: 18px;
 }
 
 .line{
     border: 0.2px solid hsl(0, 0%, 59%);
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .info-hero{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin: 10px;
+    margin: 5px;
+}
+
+h2{
+    font-size: 22px;
 }
 
 .info-hero p{
